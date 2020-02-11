@@ -1,0 +1,188 @@
+/*
+Created by Daniela Lipčika dl18033
+12.01.2019
+*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+ font-family: "Times New Roman", Times, serif;
+ background-image: url("05-caucasus-mountains-tbilisi-georgia-guide.jpg");
+ background-attachment: fixed;
+ background-size: 100%;
+}
+div.viss{
+    max-width: 70%;
+    margin: auto;
+    
+}
+.virsraksts {
+  background-image: url("shutterstock_241042420_tatyana_vyc_1.jpg"); 
+ text-align: center;
+background-position: center;
+}
+#virsraksts{
+   display:inline-block;
+   font-size:640%;
+   color:white;
+}
+.navigacija {
+  overflow: auto;
+  background-color: #333;
+}
+
+.navigacija a {
+  float: left;
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size:19px;
+}
+
+.navigacija a:hover {
+  background-color: white;
+  transition-duration: 0.7s;
+  color: black;
+}
+.button {
+  border: none;
+  cursor: pointer;
+}
+
+div.lapa, div#Health, div#Travel, div#Positivity, div#login{
+     background: #f1f1f1;
+     margin-top: -20px;
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-bottom: 5%;
+     display:block;
+}
+
+h2
+{
+    padding:4%;
+    text-transform: uppercase;
+}
+div#Health h2{
+    text-align: center;
+}
+#bilde1, #bilde2, #bilde3, #bilde4
+{
+    padding:1%;
+    display: block;
+    width: 40%;
+    float:right;
+}
+div#Health p{
+    line-height: 1.6;
+}
+
+#paragrafs{
+    background-image: url("49fa48eada90f1dcf4fb2089146c9199kopija.jpg");
+    color:whitesmoke;
+}
+#list1
+{
+    color:brown;
+    list-style-type: lower-alpha;
+}
+#list2
+{
+    display:inline-block;
+    padding:5px;
+    list-style-type: lower-roman;
+}
+li a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: black;
+}
+table,th,td{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: pink
+}
+#bilde5{
+    max-width: 90%;
+    margin-left: 5%;
+}
+#bildei5 { 
+    text-align: center;
+}
+#bildei5 a{
+    text-decoration: none;
+    text-align: center;
+font-size: 150%;
+}
+
+div#Positivity{
+    text-align: center;
+}
+
+div#Positivity p{
+    font-size: 150%;
+}
+
+#bilde6
+{
+    float:right;
+    max-width: 30%;
+}
+.pirma{
+    line-height:39px;
+}
+.otra{
+    background-color: papayawhip
+}
+
+@media screen and (max-width: 600px) {
+  div.virsraksts {
+    max-height: 100px;
+    font-size: 4px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.navigacija{
+      background-image: url("shutterstock_241042420_tatyana_vyc_1.jpg");
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+    body{
+        background-image: url("f4983222b3369feeeed3b5ac1073c959.jpg");
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .navigacija {
+     max-width: 100%;
+    }
+}
+@media print {
+    .navigacija{
+        display:none;
+    }
+    body{
+      color:red;
+    }
+}
+
+#explore{
+    text-align: center;
+    font-size: 26px;
+    border: 3px solid black;
+}
+#saraksts{
+    display:none;
+}
+#tips2{
+    cursor:pointer;
+}
